@@ -14,4 +14,5 @@ server_script 'server/main.lua'
 
 dependencies {
 	'qb-inventory'
+	'qb-target'
 }
