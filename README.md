@@ -29,3 +29,77 @@ Add to shared.lua
 ["sprite"] 			         = {["name"] = "sprite", 				    ["label"] = "Sprite",                ["weight"] = 3500,       ["type"] = "item",      ["image"] = "sprite.png",         ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sprite"},
 ["donut"] 			         = {["name"] = "donut", 				    ["label"] = "Donut",                ["weight"] = 3500,       ["type"] = "item",      ["image"] = "donut.png",         ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Donut"},
 ```
+
+THIS EDIT OF QB-SHOPS USE QB-TARGET https://github.com/BerkieBb/qb-target
+Add to qb-target config.targetmodels
+
+```
+["slushy"] = {
+        models = {
+            `prop_juice_dispenser`
+        },
+        options = {
+            {
+                type = "server",
+                event = "Slurpee:Getitem",
+                icon = "fas fa-filter",
+                label = "Pour A Slurpee.",
+            },
+        },
+        distance = 2.5
+    },
+    ["chips"] = {
+        models = {
+            `v_ret_247shelves03`
+        },
+        options = {
+            {
+                type = "server",
+                event = "Chip:Getitem",
+                icon = "fas fa-shopping-bag",
+                label = "Buy Some Doritos.",
+            },
+        },
+        distance = 2.5
+    },
+    ["coke"] = {
+        models = {
+            `v_ret_247shelves02`
+        },
+        options = {
+            {
+                type = "server",
+                event = "Coke:Getitem",
+                icon = "fas fa-shopping-bag",
+                label = "Buy Some Coke.",
+            },
+			{
+                type = "server",
+                event = "SmallCoke:Getitem",
+                icon = "fas fa-shopping-bag",
+                label = "Buy Some Small Coke.",
+            },
+			{
+                type = "server",
+                event = "Sprite:Getitem",
+                icon = "fas fa-shopping-bag",
+                label = "Buy Some Small Sprite.",
+            },
+        },
+        distance = 2.5
+    },
+	["donuts"] = {
+        models = {
+            `v_ret_247_donuts`
+        },
+        options = {
+            {
+                type = "server",
+                event = "Donut:Getitem",
+                icon = "fas fa-shopping-bag",
+                label = "Buy Some Donuts.",
+            },
+        },
+        distance = 2.5
+    },
+```
