@@ -18,3 +18,14 @@ Shops For QB-Core
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>
+
+
+Add to shared.lua
+
+```
+["slurpee"] 			         = {["name"] = "slurpee", 				    ["label"] = "Slurpee",                ["weight"] = 3500,       ["type"] = "item",      ["image"] = "slurpee2.png",         ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Slurpee"},
+["dorito_chips"] 			         = {["name"] = "dorito_chips", 				    ["label"] = "Doritos",                ["weight"] = 3500,       ["type"] = "item",      ["image"] = "dorito_chips.png",         ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Dortios"},
+["2litercoke"] 			         = {["name"] = "2litercoke", 				    ["label"] = "2 Liter Coke",                ["weight"] = 3500,       ["type"] = "item",      ["image"] = "2litercoke.png",         ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "2 Liter Coke"},
+["sprite"] 			         = {["name"] = "sprite", 				    ["label"] = "Sprite",                ["weight"] = 3500,       ["type"] = "item",      ["image"] = "sprite.png",         ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sprite"},
+["donut"] 			         = {["name"] = "donut", 				    ["label"] = "Donut",                ["weight"] = 3500,       ["type"] = "item",      ["image"] = "donut.png",         ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Donut"},
+```
