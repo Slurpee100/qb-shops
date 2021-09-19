@@ -88,7 +88,7 @@ Add to qb-target config.targetmodels
         },
         distance = 2.5
     },
-	["donuts"] = {
+    ["donuts"] = {
         models = {
             `v_ret_247_donuts`
         },
